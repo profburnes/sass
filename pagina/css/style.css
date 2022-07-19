@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(../imagens/bg.jpg) fixed;
+}
+
+.header {
+  background: #1E0F3C;
+  padding: 20px;
+}
+.header .header-logo img {
+  height: 60px;
+}
+.header .header-nav {
+  float: right;
+}
+.header .header-nav ul {
+  list-style: none;
+}
+.header .header-nav ul li {
+  padding: 20px;
+  display: inline-block;
+}
+.header .header-nav ul li .header-link {
+  color: #0EAFD2;
+  text-decoration: none;
+  position: absolute;
+  transition: all 1s;
+}
+.header .header-nav ul li .header-link:hover {
+  margin-top: -5px;
+}
+
+.banner {
+  text-align: center;
+}
+.banner h2 {
+  font: 2em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 40px;
+  color: #0EAFD2;
+}
+.banner p {
+  font: 1.2em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 40px;
+  color: #0EAFD2;
+}
+
+.btn {
+  background: #0EAFD2;
+  color: #29184A;
+  padding: 10px 30px;
+  border-radius: 100px;
+  margin: 30px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 1s;
+}
+.btn:hover {
+  background: #29184A;
+  color: #0EAFD2;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+section {
+  padding: 50px 0;
+}
+
+h1, p {
+  margin: 30px;
+}
+
+.autor {
+  background: #1E0F3C;
+}
+.autor h1 {
+  font: 2em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 40px;
+  color: #0EAFD2;
+  font-weight: bold;
+}
+.autor-img {
+  float: left;
+  margin: 30px;
+  width: 150px;
+}
+.autor p {
+  font: 1.2em Quicksand, Arial, Tahoma;
+  text-align: justify;
+  line-height: 30px;
+  color: #FFF;
+}
+
+.sobre {
+  background: #0EAFD2;
+}
+.sobre h1 {
+  font: 2em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 40px;
+  color: #1E0F3C;
+  font-weight: bold;
+}
+.sobre p {
+  font: 1.2em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 30px;
+  color: #FFF;
+}
+
+.footer {
+  padding: 20px;
+}
+.footer p {
+  font: 1.2em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 40px;
+  color: #FFF;
+  text-align: center;
+}
+.footer-img {
+  width: 100px;
+}
+
+@media (max-width: 420px) {
+  body {
+    padding-top: 120px;
+  }
+
+  .header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+  }
+
+  .container {
+    width: auto;
+    padding: 10px;
+  }
+
+  .banner img {
+    width: 80%;
+  }
+
+  .autor-img {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

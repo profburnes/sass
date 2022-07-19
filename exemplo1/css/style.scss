@@ -1,0 +1,30 @@
+$primary: #333;
+$secondary: #666;
+$principal: #ccc;
+$font1: Tahoma;
+$font2: Verdana;
+
+.texto {
+    color: $secondary;
+    font: 1.1em $font2;
+    text-align: center;
+}
+
+body {
+    background-color: $principal;
+}
+
+h1 {
+    font: 2em $font1;
+    color: $primary;
+}
+
+h2 {
+    font: 1.5em $font1;
+    color: $primary;
+}
+
+p {
+    @extend .texto;
+    line-height: 40px;
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font: 36px Arial;
+  color: #333;
+  text-align: center;
+  line-height: 40px; }
+
+h2 {
+  font: 24px Arial;
+  color: #ccc;
+  text-align: center;
+  line-height: 40px; }
+
+p {
+  font: 16px Verdana;
+  color: #ccc;
+  text-align: justify;
+  line-height: 40px; }
+
+/*# sourceMappingURL=style.css.map */

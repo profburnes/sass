@@ -1,0 +1,25 @@
+.texto, p {
+  color: #666;
+  font: 1.1em Verdana;
+  text-align: center;
+}
+
+body {
+  background-color: #ccc;
+}
+
+h1 {
+  font: 2em Tahoma;
+  color: #333;
+}
+
+h2 {
+  font: 1.5em Tahoma;
+  color: #333;
+}
+
+p {
+  line-height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

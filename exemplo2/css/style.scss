@@ -1,0 +1,27 @@
+$primary: #ccc;
+$secondary: #333;
+$clear: #fff;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin texto($font, $tam, $cor, $alinhamento) {
+    font: $tam $font;
+    color: $cor;
+    text-align: $alinhamento;
+    line-height: 40px
+}
+
+h1 {
+    @include texto(Arial, 36px, $secondary, center);
+}
+
+h2 {
+    @include texto(Arial, 24px, $primary, center);
+}
+
+p {
+    @include texto(Verdana, 16px, $primary, justify);
+}
